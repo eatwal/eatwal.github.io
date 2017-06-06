@@ -9,10 +9,9 @@
       height: 35px;
       display: block;
       margin: auto;
-      font-size: 20px;
-      font-family:Verdana;
+      font-size: 27px;
+      font-family:Alex Brush;
       font-weight: bold;
-      text-align: center;
     }
     
     #mbar ul {
@@ -47,15 +46,15 @@
     min-height: 75%;
 }
 #home{
-text-align:center;
-color: #DFDED4;
+text-align:auto;
+color:white;
 }
 .menu {
     display: none;
 }
     body {
       background-color: #CDCAB9;
-      font-family: Verdana;
+      font-family: Alex Brush;
     }
     img{
     display: block;
@@ -70,7 +69,7 @@ color: #432f21;
       padding: 0px;
       height: 200px;
       margin: 0px;
-      font-family: Tahoma, Geneva, sans-serif;
+      font-family: Alex Brush;
       font-weight: bold;
       text-align: center;
       border-radius: 8px;
@@ -78,7 +77,7 @@ color: #432f21;
     
     #bbar ul {
       height: auto;
-      padding: 50px 0px;
+      padding: 80px 0px;
       margin: 30px 0px;
     }
     
@@ -96,9 +95,41 @@ color: #432f21;
     }
     
     #bbar a:hover {
-      color: none;
+      color: white;
       background-color: none;
     }
+    table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+
+thead th {
+  background:#92dce0;
+  color: #432f21;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
     </style>
   <body>
     <div id="mbar">
@@ -114,10 +145,58 @@ color: #432f21;
     <span class="w3-text-white" style="font-size:90px">Contact Us</span>
   </div>
 </header>
-<h1> Come and Enjoy a Fresh Cup Of Coffee!</h1>
+<h1> Come and Enjoy a Fresh Cup Of Coffee at any of our 4 locations in B.C!</h1>
+<table>
+    <thead>
+      <tr>
+       <center><th>Location</th></center>
+       <center><th>Contact</th></center>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>10355 152 St, Surrey, BC V3R 7C1</th>
+        <td>604-569-9021</td>
+      </tr>
+      <tr>
+      <th>4660 Robson St, Vancouver, BC V6B 3K9</th>
+      <th>604-326-0753</th>
+      </tr>
+      <tr>
+      <th>1207 No. 3 Road, Richmond, BC V6X 2B8</th>
+      <th>604-278-7199</th>
+      <tr>
+      <th>3900 Wellington Ave, Chilliwack, BC V2P 2M1</th>
+      <th>604-702-9626</th>
+      </tr>
+      </tbody>
+  </table>
+<table>
+    <thead>
+      <tr>
+       <center><th>Hours Of Operation</th></center> 
+       <center><th>Open</th></center>
+       <center><th>Closing</th></center>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Monday To Friday</th>
+        <td>9:00Am</td>
+        <td>7:00Pm</td>
+      </tr>
+      <tr>
+        <th>Saturday To Sunday</th>
+        <td>10:00Am</td>
+        <td>7:00Pm</td>
+      </tr>
+      </tbody>
+  </table>
    <div id="bbar">
       <ul>
         <li><a href="home.html">Home</a></li>
         <li><a href="aboutus.html">About Us</a></li>
         <li><a href="menu.html">Menu</a></li>
         <li><a href="contactus.html">Contact Us </a></li>
+        </body>
+     </html>
