@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Phone</title>
+<style>
+#border {
+    width: 320px;
+    height: 620px;
+    margin: 50px;
+    padding: 20px;
+    position: fixed;
+    border: 25px solid black;
+    border-radius: 80px;
+    background: linear-gradient(gray, white);
+}
+#screen {
+    width: 280px;
+    height: 470px;
+    position: relative;
+    left: 0px;
+    top: 40px;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 10px;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/c3/ac/ab/c3acab67d8411230557c24708a9e787e.jpg");
+}
+#speaker {
+    width: 100px;
+    height: 10px;
+    left: 125px;
+    top: 26px;
+    position: absolute;
+    background: black;
+    border-radius: 40px;
+}
+#home {
+    border: 10px solid black;
+    position: absolute;
+    top: 580px;
+    left: 145px;
+    height: 50px;
+    border-radius:75px;
+    width: 50px;
+    background: ghostwhite;
+}
+#topbar ul {
+list-style-type: none;
+margin: -10px -5px -10px -10px;
+height: 30px;
+background-color:white;
+}
+
+#topbar .fa-wifi {
+float: left;
+margin: 3px -33px;
+font-size: 25px;
+}
+#topbar .fa-battery-full {
+float: right;
+margin: 3px 5px -10px;
+font-size: 25px;
+}
+#topbar .fa-bell-slash {
+float: right;
+margin:3px -2px -10px;
+font-size: 25px;
+}
+
+#apps .fa {
+  padding: 0px;  
+  margin: 15px 9px;
+  font-size: 50px;
+  text-align: left;
+}
+#apps .fa-cog {
+margin-top: 30px;
+margin-left: 10px;
+color: #2c333a;
+}
+#apps .fa-envelope-o{
+color: midnightblue;
+}
+#apps .fa-clock-o{
+color: #2c333a;
+}
+#apps .fa-map-marker{
+margin-left: 20px;
+color: #28a428;
+}
+#apps .fa-calculator{
+color: #28a428;
+}
+#apps .fa-calendar{
+color: crimson;
+}
+#apps .fa-photo{
+color: royalblue;
+}
+#apps .fa-gamepad{
+color: black;
+}
+#apps .fa-microphone{
+color: #800040;
+}
+#apps .fa-user-o{
+color: black;
+}
+#bottombar .fa{
+margin: 130px 8px 5px 8px;
+font-size: 53px;
+text-align: justify;
+}
+#bottombar .fa-address-book{
+margin-left: 10px;
+color: peru;
+}
+#bottombar .fa-phone-square{
+color: #28a428;
+}
+#bottombar .fa-globe{
+color:blue;
+}
+#bottombar .fa-camera{
+margin-right: 10px;
+color: #2c333a;
+}
+</style>
+</head>
+<body>
+<div id="border">
+<div id="home"></div>
+<div id="speaker"></div>
+<div id="screen">
+
+<div id="topbar">
+<ul>
+<li><i class="fa fa-wifi"></i></li>
+<li><i class="fa fa-battery-full"></i></li>
+<li><i class="fa fa-bell-slash"></i></li>
+<ul>
+</div>
+
+<div id="apps">
+<i class="fa fa-cog"></i>
+<i class="fa fa-photo"></i>
+<i class="fa fa-music"></i>
+<i class="fa fa-map-marker"></i>
+<i class="fa fa-calculator"></i>
+<i class="fa fa-calendar"></i>
+<i class="fa fa-envelope-o"></i>
+<i class="fa fa-user-o"></i>
+<i class="fa fa-microphone"></i>
+<i class="fa fa-gamepad"></i>
+</div>
+
+<div id="bottombar">
+<i class="fa fa-address-book"></i>
+<i class="fa fa-phone-square"></i>
+<i class="fa fa-globe"></i>
+<i class="fa fa-camera"></i>
+</div>
+
+</div>
+</div>
+</body>
+</html>
